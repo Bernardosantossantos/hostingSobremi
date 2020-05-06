@@ -17,6 +17,6 @@ $remitente="From: algo@jonylif.com.ar";
 mail($destino, $asunto, $mensaje, $remitente);
 
 
-header("Location:index.html?i=ok");
+header("Location:index.php?i=ok");
 // SI EL FORMULARIO SE ENVIO CORRECTAMENTE, PONEME EN LA URL DESPUES DEL INDEX.PHP UN SIGNO DE PREGUNTA, UNA LETRA I, Y UN IGUAL OK
 ?>
