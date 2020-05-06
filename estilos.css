@@ -1,0 +1,443 @@
+body{
+  margin: 0;
+  font-family: 'Poppins', serif;
+}
+
+header .contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+ a {
+  text-decoration: none;
+}
+
+  .contenedor {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+  background: linear-gradient(rgba(84,93,220,.9), rgba(96,171,245,.9)), url(imagenes/fondo-home.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+#contenedor-titulo-flex{
+  display: flex;
+  justify-content: center;
+  margin: 18vh 0;
+  max-width: 1580px; y width: 100%;
+}
+h1{
+  font-size: 60px;
+  color: #fff;
+  margin: 0;
+}
+
+h2{
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}
+.contenedor-titulo{
+  text-align: center;
+}
+
+
+.contenedor-titulo a, #sobre-mi a, #blog a, #que-esperas a, #contacto input[type="submit"] {
+  font-size: 14px;
+  color: #fff;
+  background: #5cb8ff;
+  padding: 14px 24px;
+  width: 128px;
+  display: inline-block;
+}
+
+p.logo{
+  color: #fff;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+/* SECCION DE SOBRE MI */
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#sobre-mi .contenedor-sobremi{
+  display: flex;
+  justify-content: space-around;
+}
+
+#sobre-mi .texto{
+  width: 42%;
+}
+
+/*SECCION SERVICIOS */
+
+.contenedor-Servicios{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.Servicios {
+  width: 24%;
+  padding: 34px 30px 38px 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.Servicios h4 {
+  font-size: 30px;
+  margin: 0;
+}
+.Servicios p {
+  margin-bottom: 20px;
+  height: 194px;
+}
+
+.contenedor-Servicios .violeta{
+  background: linear-gradient(to top,
+    #5055df, #6d68f3);
+    box-shadow: 0 12px 30px 0 rgba(80,
+      85, 223, .37);
+}
+.contenedor-Servicios .celeste{
+  background: linear-gradient(to top,
+    #40a8f9, #5cb8ff);
+    box-shadow: 0 12px 30px 0 rgba(86,
+      163, 222, .3);
+}
+
+.ondas{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.icono {
+  float: right;
+}
+
+/* SECCION MIS TRABAJOS */
+ button.owl-prev, button.owl-next{
+    font-size: 40px !important;
+ }
+
+ span {
+   color: #71bcfa;
+ }
+
+ /* SECCION POR QUE TRABAJAR CONMIGO */
+
+ .contenedor-trabajar {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ #por-que-trabajar .item {
+   width: 28;
+   text-align: center;
+ }
+
+#por-que-trabajar ul li {
+  list-style: none;
+}
+
+#por-que-trabajar ul li:nth-child(2) {
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+#por-que-trabajar ul li:nth-child(3) {
+  line-height: 31px;
+}
+
+/* SECCION BLOG */
+
+#blog {
+  background: #F9FAFC;
+}
+
+#blog .contenedor-publicaciones {
+  display: flex;
+  justify-content: space-around;
+}
+
+#blog .publicaciones {
+  width: 30%;
+  box-shadow: 1px 1px 14px #ccc;
+}
+
+#blog img {
+  width: 100%;
+}
+
+#blog .contenido {
+  background: #fff;
+  padding: 20px;
+}
+
+#blog h4 {
+  font-size: 23px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+#blog p {
+  color: #5A6169;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+#blog a {
+  width: 87px;
+}
+
+#que-esperas {
+  background:
+  linear-gradient(rgba(84,93,220,.94),rgba(96,171,245,.9));
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 40px;
+}
+
+#que-esperas h3 {
+  font-size: 23px;
+  color: #fff;
+}
+
+/*SECCION DE CONTACTO */
+
+#contacto form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 77%;
+  margin: auto;
+}
+
+input[type="text"], input[type="email"] {
+  width: 49%;
+  margin-bottom: 15px;
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #5cb8ff;
+  font-size: 17;
+}
+
+textarea {
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #5cb8ff;
+  font-size: 17;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+#contacto input[type="submit"] {
+  width: 166px;
+  margin: auto;
+}
+
+ .contacto-info {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 60px;
+ }
+
+ .contacto-info img {
+   width: 28px;
+   vertical-align: middle;
+   margin-right: 10px;
+ }
+
+footer {
+  background: #2F2F2F;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer .contenedor {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer img {
+  margin: 0 40px;
+  transform: rotate(0);
+  transition: 0.4s;
+}
+
+footer img:hover {
+  transform: rotate(360deg);
+  transition: 0.4s;
+}
+
+footer p {
+  color: #fff;
+  margin-top: 40px;
+}
+
+#whatsapp {
+  position: fixed;
+  top: 80%;
+  right: 1%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#mis-trabajos, #sobre-mi, #por-que-trabajar, #blog, #Contacto {
+  padding: 90px 0;
+}
+
+#Servicios {
+  padding: 70px 0;
+}
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 800px) {
+
+.menu-icon {
+  display: block;
+float: right;
+width: 40px;
+height: 35px;
+margin-top: 15px;
+}
+
+header nav {
+  position: absolute;
+  top: 83px;
+  left: 0;
+  height: 268px;
+  background: #5cb8ff;
+  width: 100%;
+  display: none;
+}
+
+header nav ul {
+  flex-direction: column;
+}
+
+header nav ul li {
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 19px;
+}
+
+#sobre-mi .contenedor-sobremi {
+    flex-direction: column;
+}
+
+#sobre-mi img {
+  width: 100%;
+}
+
+#sobre-mi .texto {
+    width: 100%;
+}
+
+.contenedor-Servicios {
+  flex-direction: column;
+}
+
+.Servicios {
+  width: 82%;
+  padding: 34px 30px 69px 30px;
+}
+
+.icono {
+  margin-top: 23px;
+}
+
+h3 {
+  font-size: 43px;
+}
+
+.contenedor-trabajar {
+    flex-direction: column;
+}
+
+#por-que-trabajar .item {
+    width: 100%;
+}
+
+.item ul {
+    padding: 0;
+}
+
+#blog .contenedor-publicaciones {
+    flex-direction: column;
+}
+
+#blog .publicaciones {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#contacto form {
+    width: 100%;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+}
+
+footer img {
+    margin: 0 24px;
+}
+
+@media (min-width: 600px) and (max-width:800px) {
+  header {
+    height: 70vh;
+  }
+
+  .servicio {
+    width: 57%;
+    padding: 34px 30px 69px 30px;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+#blog .publicacion {
+    width: 71%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+}
