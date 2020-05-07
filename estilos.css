@@ -23,7 +23,7 @@ header ul li {
 
   .contenedor {
     max-width: 1280px;
-    width: 100%;
+    width: 90%;
     margin: auto;
 }
 
@@ -37,7 +37,7 @@ header {
   display: flex;
   justify-content: center;
   margin: 18vh 0;
-  max-width: 1580px; y width: 100%;
+  width: 100%;
 }
 h1{
   font-size: 60px;
