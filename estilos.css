@@ -39,6 +39,11 @@ header {
   margin: 18vh 0;
   width: 100%;
 }
+
+.menu {
+  transition: .3s
+}
+
 h1{
   font-size: 60px;
   color: #fff;
@@ -56,8 +61,10 @@ h2{
 
 
 .contenedor-titulo a, #sobre-mi a, #blog a, #que-esperas a, #contacto input[type="submit"] {
+   border-radius: 5px;
   font-size: 14px;
   color: #fff;
+  transition: .3s;
   background: #5cb8ff;
   padding: 14px 24px;
   width: 128px;
@@ -67,6 +74,7 @@ h2{
 p.logo{
   color: #fff;
   font-size: 20px;
+  font-weight: bold;
 }
 
 nav ul li a {
